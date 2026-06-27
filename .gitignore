@@ -1,0 +1,38 @@
+# Ambientes virtuais
+venv/
+env/
+.venv/
+ENV/
+
+# Cache do Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Arquivos de dados locais (não versionar)
+plantacoes_data.json
+registro_operacoes.log
+
+# Credenciais (segurança)
+.env
+.env.local
+.env.*.local
+
+# IDEs e editores
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Logs e relatórios
+*.log
+logs/
+
+# Arquivos de cobertura de testes
+.coverage
+htmlcov/
+.pytest_cache/
