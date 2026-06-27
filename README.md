@@ -338,11 +338,11 @@ Crie um arquivo ```.env``` na raiz do projeto com:
 ## 🔹 Primeira Execução
 Ao iniciar o aplicativo, você será perguntado se deseja conectar ao Oracle. Se optar por conectar:
 
-O sistema validará a existência da tabela PLANTIO_CANA e a criará automaticamente, se necessário.
+O sistema validará a existência da tabela ```PLANTIO_CANA``` e a criará automaticamente, se necessário.
 
-Uma sequência (SEQ_PLANTIO_CANA) será criada para gerenciamento de IDs.
+Uma sequência (```SEQ_PLANTIO_CANA```) será criada para gerenciamento de IDs.
 
-Você poderá sincronizar todos os dados locais (JSON) com o Oracle em lote (executemany).
+Você poderá sincronizar todos os dados locais (```JSON```) com o Oracle em lote (```executemany```).
 
 Novos cadastros serão espelhados automaticamente em tempo real na nuvem.   
 
